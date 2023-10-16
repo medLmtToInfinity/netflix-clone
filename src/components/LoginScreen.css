@@ -1,0 +1,103 @@
+
+
+.loginScreen {
+    position: relative;
+    background: url("https://scontent.frba4-3.fna.fbcdn.net/v/t1.6435-9/44061617_10161346795390352_2628071852559302656_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGCln2GT-UiDLsfmCUqI024eApUJ0wfrjp4ClQnTB-uOoa3YklrwOfB5ik6qsVV3uk6IlWPHwBcjPAwvfd4b0Lj&_nc_ohc=7_3Ln4Hm2xIAX9Rx--c&_nc_ht=scontent.frba4-3.fna&oh=00_AfDkwn6c0EqaxGelAuXWiu8KHxjC6QD2WYRh0GneVuM6jg&oe=6504598D") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.loginScreen__gradient {
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, .8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, .8) 100%
+    );
+}
+
+.loginScreen__logo {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginScreen__button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.loginScreen__body {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.loginScreen__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.loginScreen__body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.loginScreen__input {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.loginScreen__input > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+
+.loginScreen__input > form > input {
+    padding: 10px;
+    outline: none;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen__getStarted {
+    padding: 16px 20px;
+    /* height: 60px; */
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e60914;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}

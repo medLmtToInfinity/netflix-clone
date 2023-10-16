@@ -1,0 +1,62 @@
+.loginForm {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+    width: 50%;
+    max-width: 700px;
+    padding: 70px;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    align-self: self-start;
+}
+
+.loginForm input {
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    /* width: 100%; */
+    border-radius: 4px;
+
+}
+
+.loginForm > button {
+    display: block;
+    padding: 15px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #e60914;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.loginForm > h4 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+
+.signUpScreen__gray {
+    color: #777;
+}
+
+.signUpScreen__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
